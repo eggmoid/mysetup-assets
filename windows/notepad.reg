@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\notepad]
+@="메모장 열기"
+[HKEY_CLASSES_ROOT\*\shell\notepad\command]
+@="notepad.exe %1"
